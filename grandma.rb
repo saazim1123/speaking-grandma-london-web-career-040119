@@ -2,15 +2,15 @@
 
 def speak_to_grandma
  puts "What would you like to say to grandma?"
- answer = gets.chomp!
+ answer = gets.chomp
  if answer == "I LOVE YOU GRANDMA!"
    puts "I LOVE YOU TOO PUMPKIN!"
    
- elsif answer == " " + .downcase
+ elsif answer == answer.downcase
   puts "HUH?! SPEAK UP SONNY"
 
- elsif answer == " " + .upcase
-  puts "NO, NOT SINCE 1938"
+ elsif answer == answer.upcase
+  puts "NO, NOT SINCE 1938!"
  end
   
 end
